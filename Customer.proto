@@ -6,7 +6,7 @@
 
 syntax = "proto3";
 
-package com.polarsparc.protobuf3;
+package com.polarsparc.protobuf3.simple;
 
 message Customer {
   string first_name = 1;

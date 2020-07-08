@@ -8,7 +8,7 @@ import CustomerAccount_pb2
 
 account = CustomerAccount_pb2.Account()
 account.acct_no = "12345"
-account.acct_type = CustomerAccount_pb2.BROKERAGE
+account.acct_type = CustomerAccount_pb2.CA_BROKERAGE
 account.customer.first_name = "Bugs"
 account.customer.last_name = "Bunny"
 account.customer.email_id = "bugs.b@carrot.co"

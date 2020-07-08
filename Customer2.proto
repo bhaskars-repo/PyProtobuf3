@@ -6,16 +6,16 @@
 
 syntax = "proto3";
 
-package com.polarsparc.protobuf3;
+package com.polarsparc.protobuf3.modular;
 
 option java_outer_classname = "CustomerInfo";
 option java_multiple_files = true;
 
 enum PhoneType2 {
-  UNKNOWN = 0;
-  HOME = 1;
-  MOBILE = 2;
-  WORK = 3;
+  PT_UNKNOWN = 0;
+  PT_HOME = 1;
+  PT_MOBILE = 2;
+  PT_WORK = 3;
 }
 
 message PhoneNumber2 {

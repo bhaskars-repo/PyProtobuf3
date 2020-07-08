@@ -6,7 +6,7 @@
 
 syntax = "proto3";
 
-package com.polarsparc.protobuf3;
+package com.polarsparc.protobuf3.modular;
 
 option java_outer_classname = "AccountInfo";
 option java_multiple_files = true;
@@ -14,10 +14,10 @@ option java_multiple_files = true;
 import "Customer2.proto";
 
 enum AccountType2 {
-  UNKNOWN_ACCT = 0;
-  SAVINGS = 1;
-  CHECKING = 2;
-  BROKERAGE = 3;
+  AT_UNKNOWN = 0;
+  AT_SAVINGS = 1;
+  AT_CHECKING = 2;
+  AT_BROKERAGE = 3;
 }
 
 message Account2 {
